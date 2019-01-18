@@ -6,6 +6,10 @@ lists all built images
 
 - docker images
 
+lists all processes (running containers)
+
+- docker ps
+
 run the image
 
 - docker run 'imageId'
