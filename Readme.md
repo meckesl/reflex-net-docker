@@ -8,12 +8,12 @@ lists all built images
 
 run the image
 
-- docker run '<imageId>'
+- docker run 'imageId'
 
 get the ip address
 
-- docker inspect <containerNameOrId> | grep '"IPAddress"' | head -n 1
+- docker inspect 'containerNameOrId' | grep '"IPAddress"' | head -n 1
 
 exec inside container (console uses sh or bash)
 
-- docker exec -it <containerNameOrId> sh
+- docker exec -it 'containerNameOrId' sh
