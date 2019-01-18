@@ -8,7 +8,7 @@ lists all built images
 
 run the image
 
-- docker run <imageId>
+- docker run '<imageId>'
 
 get the ip address
 
